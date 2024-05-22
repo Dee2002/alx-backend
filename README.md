@@ -6,6 +6,8 @@ Welcome to the `alx-backend` repository. This repository contains various backen
 
 1. [0x00-pagination](./0x00-pagination)
    - Implementing pagination techniques for handling large datasets efficiently.
+2. [0x01-caching](./0x01-caching)
+   - Implementing various caching algorithms in Python, including FIFO, LIFO, LRU, MRU, and LFU, to understand different cache replacement policies.
 
 ## Prerequisites
 
