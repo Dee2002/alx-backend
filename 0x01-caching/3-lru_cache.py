@@ -4,6 +4,7 @@
 from base_caching import BaseCaching
 from collections import OrderedDict
 
+
 class LRUCache(BaseCaching):
     """ LRUCache defines a LRU caching system """
 

@@ -22,7 +22,8 @@ class LFUCache(BaseCaching):
             else:
                 if len(self.cache_data) >= self.MAX_ITEMS:
                     lfu_key = min(self.cache_data,
-                                  key=lambda k: (self.frequency[k], self.use_order[k]))
+                                  key=lambda k: (self.frequency[k],
+                                                 self.use_order[k]))
                     print("DISCARD:", lfu_key)
                     del self.cache_data[lfu_key]
                     del self.frequency[lfu_key]
